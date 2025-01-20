@@ -104,6 +104,10 @@ figcaption {
     transition: .1s;
 }
 
+.instagram-media {
+    width: 350px !important;
+}
+
 .project:hover {
     outline: 4px solid black;
     transition: .1s;
@@ -112,6 +116,7 @@ figcaption {
 .project-link {
     color: black;
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .project-img {
