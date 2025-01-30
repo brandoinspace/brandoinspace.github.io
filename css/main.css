@@ -184,7 +184,8 @@ figcaption {
     margin-top: 15px;
 }
 
-.table-of-contents a {
+.table-of-contents a,
+.project-container a {
     color: black;
 }
 
@@ -233,6 +234,9 @@ figcaption {
     }
     .column-2 {
         margin-right: 10px;
+    }
+    .projects-gallery {
+        flex-flow: column;
     }
 }
 
@@ -285,5 +289,8 @@ figcaption {
         width: 100% !important;
         margin: 0 !important;
         min-width: 0 !important;
+    }
+    .project-link {
+        margin-bottom: 20px;
     }
 }
